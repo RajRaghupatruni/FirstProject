@@ -294,7 +294,7 @@ void main()
 std::list<std::string> strings;
 strings.push_back("Raj");
 strings.push_back("R");
-auto Final = [&](std::list<std::string>)
+bool Final = [&](std::list<std::string>)
 {
 std::string tempStr;
 for (auto& x : strings)
